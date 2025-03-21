@@ -3,9 +3,9 @@
 An easy script about using SVD-based ICP algorithm to register 2 point clouds in Python, where KD-Tree is used to find the correspondence.
 
 What features we have:
-1. We introduced KD-Tree to match the closest point pairs, i.e., the correspondence. 
-2. We performed a rough registration between two point clouds before iterative updates.
-3. We reject the outlier point pairs outside a set threshold range during each iteration.
+1. KD-Tree, for matching the closest point pairs, i.e., the correspondence. 
+2. Rough registration, before the iterative update.
+3. Rejection of outlier point pairs, with a threshold could be set.
 
 ![The framework of Improved SVD-Based ICP.](./readme-imgs/framework.svg)
 
@@ -26,7 +26,7 @@ pip3 install -r requirements.txt
 
 - Or simply modify your customer point cloud file path in `improved_icp_based_on_svd.py`.
 
-- Run the script, where feel free to change the threshold and the number of iteration:
+- Run the script, feel free to change the ICP threshold and the number of iteration:
 
 ```
 python improved_icp_based_on_svd.py
