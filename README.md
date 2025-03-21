@@ -7,7 +7,7 @@ What features we have:
 2. We performed a rough registration between two point clouds before iterative updates.
 3. We reject the outlier point pairs outside a set threshold range during each iteration.
 
-![The framework of Improved SVD-Based ICP.](./readme-imgs/framework.png)
+![The framework of Improved SVD-Based ICP.](./readme-imgs/framework.svg)
 
 ## 1 Requirements
 
