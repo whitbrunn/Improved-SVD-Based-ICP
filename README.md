@@ -1,8 +1,3 @@
-# Improved-SVD-Based-ICP
-
-An easy script about using SVD-based ICP algorithm to register 2 point clouds in Python, where KD-Tree is used to find the correspondence.
-
-=======
 # Improved SVD-Based ICP
 
 An easy script about using SVD-based ICP algorithm to register 2 point clouds in Python, where KD-Tree is used to find the correspondence.
@@ -51,4 +46,3 @@ python improved_icp_based_on_svd.py
 ## 4 One more thing
 
 Please contact maijy1010@163.com if any question you might have. MIT Lisense. Acknowledgements to NUS.
->>>>>>> a1599ec (updated 21/3/25)
